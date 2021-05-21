@@ -2,7 +2,7 @@
 using namespace std;
 main (){
 //validar datos
-init n;
+int n;
 cout <<"ingrese un numero: ";
 cin >>n;
 }
