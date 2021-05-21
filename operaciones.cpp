@@ -1,11 +1,19 @@
 #include<iostream>
 using namespace std;
-main (){
-//validar datos
-int n;
-do {
-cout <<"ingrese un numero: ";
-cin >>n;
-} while(n<1 || n>10);
+int validaNumero(){
+//procesode validacion
+int numero;
+do{
+    count<<"ingrese numero: ";
+    cin>>numero;
 
+}while(numero<1 || numero>10);
+return numero;
 }
+
+
+main(){
+    int n= validaNumero();
+}
+
+
