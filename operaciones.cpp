@@ -21,6 +21,10 @@ main(){
     int n= validaNumero();
     saludoProgramador("juan");
     cout<<"El vaolor ingreado es "<<n<<endl;
+    string nombre;
+    cout<<"Ingrese su nombre: ";
+    cin>>nombre;
+    saludoProgramador(nombre);
 }
 
 
