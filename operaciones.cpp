@@ -10,6 +10,9 @@ do{
 }while(numero<1 || numero>10);
 return numero;
 }
+void sumar(int n){
+    int resultado =n+n;
+}
 void saludoProgramador(string nombre){
  cout<<"Bienvenidos a mi proyecto git"<<endl;
  cout<<"Define si no eres un robot contestando la pregunta siguiente";
