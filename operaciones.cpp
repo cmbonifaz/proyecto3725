@@ -20,6 +20,7 @@ void saludoProgramador(string nombre){
 main(){
     int n= validaNumero();
     saludoProgramador("juan");
+    cout<<"El vaolor ingreado es "<<n<<endl;
 }
 
 
